@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CIS 474 Project Site</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+<script defer src="js/script.js"></script>
+
+<meta name="description" content="Project charter, WBS, schedule, risks.">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  
+<nav class="container" aria-label="Primary">
+  <a class="brand" href="index.html" aria-current="page">CIS 474</a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">☰</button>
+  <ul id="nav-links" class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="plan.html">Project Plan</a></li>
+    <li><a href="deliverables.html">Deliverables</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+
+</header>
+
+<main id="main" class="container prose">
+  <h1>Project Plan</h1>
+  <p>Keep the plan lightweight and living. Update as your project evolves.</p>
+
+  <h2 id="charter">Charter (One Page)</h2>
+  <ul>
+    <li>Title, problem statement, success criteria</li>
+    <li>Scope summary (what’s in / out)</li>
+    <li>Stakeholders, roles</li>
+    <li>Milestones (Alpha, Beta, Final)</li>
+    <li>Top risks + responses</li>
+  </ul>
+  <p><a class="btn" href="assets/Project-Charter.pdf">Download Charter (placeholder)</a></p>
+
+  <h2 id="wbs">Work Breakdown Structure (WBS)</h2>
+  <ol>
+    <li>Layout & Navigation</li>
+    <li>Pages & Content</li>
+    <li>Accessibility & QA</li>
+    <li>Deployment</li>
+    <li>Documentation</li>
+  </ol>
+
+  <h2 id="schedule">Schedule Snapshot</h2>
+  <table class="table">
+    <thead>
+      <tr><th>Milestone</th><th>Target Date</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Wireframes</td><td>2025-11-03</td><td>Approved by instructor</td></tr>
+      <tr><td>MVP</td><td>2025-11-17</td><td>Core features working</td></tr>
+      <tr><td>Content Complete</td><td>2025-12-01</td><td>All pages filled</td></tr>
+      <tr><td>Final</td><td>2025-12-12</td><td>Polish, accessibility</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="risks">Risk Register (Lite)</h2>
+  <table class="table">
+    <thead>
+      <tr><th>Risk</th><th>Impact</th><th>Likelihood</th><th>Response</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Scope creep</td><td>Medium</td><td>Medium</td><td>Freeze scope after MVP</td></tr>
+      <tr><td>Time constraints</td><td>High</td><td>Medium</td><td>Weekly timebox, early deploy</td></tr>
+      <tr><td>Tool issues</td><td>Low</td><td>Low</td><td>Keep stack simple, backups</td></tr>
+    </tbody>
+  </table>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <p>&copy; 2025 Your Name. Built for CIS 474.</p>
+    <p><a href="index.html">Home</a></p>
+  </div>
+</footer>
+</body>
+</html>
